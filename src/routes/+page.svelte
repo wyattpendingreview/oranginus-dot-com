@@ -13,8 +13,6 @@
 		} else {
 			direction = 'right';
 		}
-
-		console.log(direction);
 	};
 
 	onMount(() => {
@@ -31,11 +29,11 @@
 		<div class="decide"></div>
 
 		<div class="choices">
-			<div class="oranginus">Oranginus</div>
+			<div class="oranginus"><a href="/oranginus">Oranginus</a></div>
 
 			<div class="man" class:left={direction === 'left'} class:right={direction === 'right'}></div>
 
-			<div class="orangeginus">Orangeginus</div>
+			<div class="orangeginus"><a href="/orangeginus">Orangeginus</a></div>
 		</div>
 	</div>
 </div>
@@ -55,6 +53,13 @@
 	.inner {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+	}
+
+	.decide {
+		width: 448px;
+		height: 119px;
+		background: url('/img/DECIDE.png');
 	}
 
 	.choices {
@@ -63,7 +68,7 @@
 
 		.oranginus,
 		.orangeginus {
-			width: 484px;
+			width: 400px;
 
 			display: flex;
 			align-items: center;
@@ -72,6 +77,14 @@
 			font-family: Alagard;
 			font-size: 64px;
 			color: #ffa800;
+			text-shadow: 0 0 8px #000000;
+
+			cursor: pointer;
+
+			a {
+				text-decoration: none;
+				color: inherit;
+			}
 		}
 
 		.man {
