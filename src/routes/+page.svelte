@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { onMount } from 'svelte';
 
 	let direction = $state('left');
@@ -29,11 +30,11 @@
 		<div class="decide"></div>
 
 		<div class="choices">
-			<div class="oranginus"><a href="/oranginus">Oranginus</a></div>
+			<div class="oranginus"><a href={resolve('/oranginus')}>Oranginus</a></div>
 
 			<div class="man" class:left={direction === 'left'} class:right={direction === 'right'}></div>
 
-			<div class="orangeginus"><a href="/orangeginus">Orangeginus</a></div>
+			<div class="orangeginus"><a href={resolve('/orangeginus')}>Orangeginus</a></div>
 		</div>
 	</div>
 </div>
