@@ -30,11 +30,11 @@
 		<div class="decide"></div>
 
 		<div class="choices">
-			<div class="oranginus"><a href={resolve('/oranginus')}>Oranginus</a></div>
+			<div class="oranginus text-shadow"><a href={resolve('/oranginus')}>Oranginus</a></div>
 
 			<div class="man" class:left={direction === 'left'} class:right={direction === 'right'}></div>
 
-			<div class="orangeginus"><a href={resolve('/orangeginus')}>Orangeginus</a></div>
+			<div class="orangeginus text-shadow"><a href={resolve('/orangeginus')}>Orangeginus</a></div>
 		</div>
 	</div>
 </div>
@@ -78,7 +78,6 @@
 			font-family: Alagard;
 			font-size: 64px;
 			color: #ffa800;
-			text-shadow: 0 0 8px #000000;
 
 			cursor: pointer;
 

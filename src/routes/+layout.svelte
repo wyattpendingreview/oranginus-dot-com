@@ -30,5 +30,22 @@
 
 			background: #000000;
 		}
+
+		.text-shadow {
+			text-shadow:
+				0 0 8px #000000,
+				0 0 2px #000000;
+		}
+
+		.text-shadow-2 {
+			text-shadow:
+				0 0 8px #000000,
+				2px 2px 2px #000000,
+				-2px -2px 2px #000000,
+				-2px 0 2px #000000,
+				2px 0 2px #000000,
+				0 -2px 2px #000000,
+				0 2px 2px #000000;
+		}
 	}
 </style>
