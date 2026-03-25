@@ -15,7 +15,7 @@
 
 		<div class={`haha-${choice}`}></div>
 
-		<a class="try-again" href={resolve('/')}>try again?</a>
+		<a class="try-again box-shadow" href={resolve('/')}>try again?</a>
 	</div>
 </div>
 

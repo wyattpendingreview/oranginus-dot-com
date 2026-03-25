@@ -25,7 +25,8 @@
 		/>
 	</audio>
 
-	<button onclick={playAudio} aria-label="Toggle audio" class:on={audioPlaying}></button>
+	<button onclick={playAudio} aria-label="Toggle audio" class:on={audioPlaying} class="box-shadow"
+	></button>
 </div>
 
 <style lang="scss">
@@ -72,6 +73,10 @@
 				0 -2px 2px #000000,
 				0 2px 2px #000000;
 		}
+
+		.box-shadow {
+			box-shadow: 1px 1px 5px #000000;
+		}
 	}
 
 	.audio-control {
@@ -86,7 +91,6 @@
 			border: 4px solid #646464;
 			background: url('/img/off.png');
 			background-size: contain;
-			box-shadow: 1px 1px 5px #000000;
 			cursor: pointer;
 
 			&.on {
