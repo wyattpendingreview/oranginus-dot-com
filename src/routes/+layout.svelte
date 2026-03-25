@@ -34,6 +34,25 @@
 	<button onclick={playAudio} aria-label="Toggle audio" class:on={audioPlaying}></button>
 </div>
 
+<!--
+
+  ┌───────────────┐
+  │ Wiz was here! │
+  └───────────────┘
+
+          /\
+         /  \
+        / \/ \
+  O    / ,--. \    O
+   \  / ( () ) \  /
+    \/   `--'   \/
+    /   (||||)   \
+   /______________\
+      /        \
+   O_/          \_O
+
+-->
+
 <style lang="scss">
 	:global {
 		@font-face {
