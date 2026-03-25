@@ -50,9 +50,16 @@
 			margin: 0;
 			padding: 0;
 			width: 100vw;
+			min-width: 1150px;
 			height: 100vh;
 
 			background: #000000;
+		}
+
+		@media (max-width: 768px) {
+			body {
+				min-width: 334px;
+			}
 		}
 
 		.text-shadow {
@@ -91,6 +98,13 @@
 				background: url('/img/on.png');
 				background-size: contain;
 			}
+		}
+	}
+
+	@media (max-width: 768px) {
+		.audio-control button {
+			width: 50px;
+			height: 51px;
 		}
 	}
 </style>
