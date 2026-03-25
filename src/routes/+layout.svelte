@@ -18,7 +18,7 @@
 {@render children()}
 
 <div class="audio-control">
-	<audio autoplay loop>
+	<audio loop>
 		<source
 			src="/audio/drone-low-pitched-rotating-growling-ambient-background-effect.mp3"
 			type="audio/mpeg"
