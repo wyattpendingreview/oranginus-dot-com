@@ -133,4 +133,58 @@
 		text-align: right;
 		text-decoration: none;
 	}
+
+	@media (max-width: 768px) {
+		.welcome {
+			width: 100%;
+			max-width: 340px;
+			height: 96px;
+
+			font-size: 28px;
+			background-size: contain;
+		}
+
+		.truth-1,
+		.truth-2,
+		.truth-3 {
+			font-size: 22px;
+		}
+
+		.truth-1 {
+			.img {
+				flex-shrink: 0;
+				margin-right: -12px;
+
+				width: 120px;
+				height: 147px;
+
+				background-size: contain;
+				background-repeat: no-repeat;
+			}
+
+			.text {
+				width: 220px;
+			}
+		}
+
+		.truth-2 {
+			width: 300px;
+		}
+
+		.truth-3 {
+			width: 300px;
+			height: 168px;
+
+			background-size: contain;
+			background-repeat: no-repeat;
+
+			> span {
+				top: 5px;
+			}
+		}
+
+		.signature {
+			font-size: 16px;
+		}
+	}
 </style>

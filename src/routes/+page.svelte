@@ -103,11 +103,13 @@
 
 	@media (max-width: 768px) {
 		.decide {
+			margin-bottom: 1.5rem;
+
 			width: 300px;
 			height: 80px;
+
 			background-size: contain;
 			background-repeat: no-repeat;
-			margin-bottom: 1.5rem;
 		}
 
 		.choices {
@@ -124,6 +126,7 @@
 			.man {
 				width: 200px;
 				height: 248px;
+
 				background-size: contain;
 				background-repeat: no-repeat;
 			}
