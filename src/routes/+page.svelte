@@ -92,11 +92,40 @@
 			height: 328px;
 
 			&.left {
-				background: url('/img/point-left.png');
+				background-image: url('/img/point-left.png');
 			}
 
 			&.right {
-				background: url('/img/point-right.png');
+				background-image: url('/img/point-right.png');
+			}
+		}
+	}
+
+	@media (max-width: 768px) {
+		.decide {
+			width: 300px;
+			height: 80px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			margin-bottom: 1.5rem;
+		}
+
+		.choices {
+			flex-direction: column;
+			align-items: center;
+			gap: 1.5rem;
+
+			.oranginus,
+			.orangeginus {
+				width: auto;
+				font-size: 40px;
+			}
+
+			.man {
+				width: 200px;
+				height: 248px;
+				background-size: contain;
+				background-repeat: no-repeat;
 			}
 		}
 	}
