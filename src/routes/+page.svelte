@@ -25,6 +25,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>DECIDE!</title>
+</svelte:head>
+
 <div class="main">
 	<div class="inner">
 		<div class="decide"></div>

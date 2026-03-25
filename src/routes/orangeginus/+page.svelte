@@ -9,6 +9,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>WRONG</title>
+</svelte:head>
+
 <div class="main">
 	<div class="inner">
 		<div class="wrong"></div>

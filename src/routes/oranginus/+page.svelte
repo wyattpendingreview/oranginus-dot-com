@@ -2,6 +2,10 @@
 	import { resolve } from '$app/paths';
 </script>
 
+<svelte:head>
+	<title>The Truth</title>
+</svelte:head>
+
 <div class="main">
 	<div class="inner">
 		<div class="welcome text-shadow">Welcome to the truth!</div>

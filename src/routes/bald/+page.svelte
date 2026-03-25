@@ -1,5 +1,9 @@
 <div class="main"></div>
 
+<svelte:head>
+	<title>Wyatt</title>
+</svelte:head>
+
 <style lang="scss">
 	.main {
 		display: flex;
