@@ -25,8 +25,8 @@
 		/>
 	</audio>
 
-	<button onclick={playAudio} aria-label="Toggle audio" class:on={audioPlaying} class="box-shadow"
-	></button>
+	<button onclick={playAudio} aria-label="Toggle audio" class:on={audioPlaying} class="box-shadow">
+	</button>
 </div>
 
 <style lang="scss">
