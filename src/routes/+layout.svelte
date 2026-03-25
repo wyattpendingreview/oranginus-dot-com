@@ -92,6 +92,7 @@
 			border: 4px solid #646464;
 			background: url('/img/off.png');
 			background-size: contain;
+			box-shadow: 1px 1px 5px #000000;
 			cursor: pointer;
 
 			&.on {
