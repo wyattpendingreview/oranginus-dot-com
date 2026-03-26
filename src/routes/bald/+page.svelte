@@ -1,7 +1,7 @@
 <div class="main"></div>
 
 <svelte:head>
-	<title>Wyatt</title>
+	<title>Bald</title>
 </svelte:head>
 
 <style lang="scss">
